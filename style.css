@@ -6,6 +6,7 @@ html, body {
     font-family: 微軟正黑體;
 }
 
+
 .left-col, .right-col {
     position: absolute;
     width: 50%;
@@ -42,13 +43,10 @@ html, body {
     animation-delay: 4.2s;
 }
 
-@media(max-width: 900px) {
+
+@media(max-width: 1000px) {
     .left-col {
           width: 100% !important;
-    }
-    .cover {
-          width: 60%!important;
-          height: 70%;
     }
     .right-col {
           top: 100%;
